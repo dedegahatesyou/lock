@@ -4,7 +4,7 @@ getgenv().techware_aimlock = {
         -- note: solo podes activar uno no seas gay
         ["modo metametodos"] = true, -- manda las balas a la posicion de la cabeza del otro (no recomendable)
         ["modo manipulacion de camara"] = false, -- te pone primera persona y bloquea tu camara a "lockear_a"
-        ["lockear_a"] = "Head", -- el nombre de la parte que se lockea
+        ["lockear_a"] = "LowerTorso", -- el nombre de la parte que se lockea
 
         -- // configuración del "modo manipulacion de camara"
         ["Y"] = 0, -- lo cuanto que la camara mirara para abajo (ponlo en 0 si no quieres que baje)
