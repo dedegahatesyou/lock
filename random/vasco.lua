@@ -2,11 +2,6 @@ getgenv().key = "Q"
 getgenv().guess = 2.6
 getgenv().alpha = 0.22
 
-loadstring("loadstring("
-)if not game:IsLoaded() then
-	game.Loaded:Wait()
-end
-
 -- Services
 local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
@@ -437,5 +432,3 @@ UIS.InputBegan:Connect(function(input,gpe)
 		game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.Aim.Bottom.Visible = false
 	end
 end)
-	
-")()"
