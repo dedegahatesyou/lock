@@ -6,20 +6,13 @@ loadstring("loadstring("
 )if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
-
-wait(1.2)
-game.StarterGui:SetCore("SendNotification", {
-	Title = "    vascoware";
-	Text = "     Script loaded!";
-	Icon = "rbxassetid://7780166376";
-	Duration = 5;
 })
 
 local notifier = game:GetService("StarterGui")
 
 getgenv().AimwareLoads = tick()
 if AimwareLockLoad == true then
-	Notify("vascoware", "Script updated!", "", 3)
+	Notify(".", "Script updated!", "", 3)
 	return 
 end
 
@@ -46,7 +39,7 @@ local HB = RunService.Heartbeat
 
 local AimlockEnabled = false
 
-getgenv().AimwareLockLoad = false
+getgenv().AimwareLockLoad = true
 
 -- Other Variables
 local mouse = player:GetMouse()
